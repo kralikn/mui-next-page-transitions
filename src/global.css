@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.contact {
+  background-color: #8A84E2;
+}
+
+.blog {
+  background-color: #84AFE6;
+}
+
+.about {
+  background-color: #AFAFDC;
+}
+
+.donation {
+  background-color: #79BEEE;
+}
+
+.home {
+  background-color: #B7D3F2;
+}
