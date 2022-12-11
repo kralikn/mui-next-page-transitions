@@ -12,7 +12,7 @@ export default function Index() {
       exit={{ opacity: 1 }}
       sx={{ position: 'absolute', top: 0, widht: '100%', height: '100%', display: 'flex', justifyContent: 'center', backgroundColor: '#B7D3F2' }}
     >
-      <Container maxWidth="lg" sx={{ p: 2 }} >
+      <Container maxWidth="lg" sx={{ p: {xs: 0, sm: 2 } }} >
         <Stack
           direction="row"
           justifyContent="space-between"
