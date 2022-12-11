@@ -18,7 +18,7 @@ const About = () => {
         alignItems="center"
         spacing={2}
         sx={{ height: '100%'}}
-        >
+      >
         <Typography variant="h4" component="h1" gutterBottom>
           About
         </Typography>

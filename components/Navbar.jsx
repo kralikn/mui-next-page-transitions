@@ -98,7 +98,7 @@ const Navbar = () => {
           </Typography>
         </Link>
         <Stack sx={{ display: { xs: 'flex', md: 'none' }, backgroundColor: '#fff', borderRadius: '50%', cursor: 'pointer' }} >
-          <IconButton aria-label="menu" onClick={toggleDrawer("right", true)}>
+          <IconButton aria-label="menu" onClick={toggleDrawer("right", true)} disableRipple disableElevation>
             <HiMenuAlt4 />
           </IconButton>
         </Stack>
